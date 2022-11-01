@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swami Vivekanand Senior Secondary Scho ol</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body class="">
+  <nav class="hidden md:block">
+    <div class="bg-sky-900 py-2 flex">
+    <div class="basis-1/2  flex justify-center items-center space-x-5 text-white">
+      <i class="fa-solid fa-phone"></i> 
+      <a href="tel:+91987654321">+91 987654321</a>
+    </div>
+    <div class="basis-1/4  flex justify-center items-center space-x-5 text-white">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:support@svsss.com">support@svsss.com</a>
+    </div>
+    <div class="basis-1/2 flex justify-center items-center space-x-2 sm:space-x-5 text-white">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    </div>
+    </div>
+  </nav>
+ <header>
+  <div  class="flex  h-20 shadow-md">
+    <div class="basis-[90%] md:basis-[90%] lg:basis-[30%] flex justify-center items-center ml-8">
+<img src="/img/gemschool-logo.png" alt="">
+    </div>
+    <div class=" hidden basis-[75%] lg:flex items-center justify-center ">
+      <ul class="md:flex space-x-5 justify-center uppercase ">
+        <li><a href="#">Home</a></li>
+        <li class=" dropdown dropbtn"><a href="aboutus.html" >About us &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+      <a href="aboutus.html">About School</a>
+      <a href="message.html">Message</a>
+      <a href="vision.html">Vision Statement</a>
+      <a href="aim.html">Our Aims</a>
+      <a href="Infrastructure.html">Infrastructure</a>
+    </div></li>
+    <li class="dropbtn dropdown "><a href="#" >Admission &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+      <a href="admission.html">Admission Process</a>
+      <a href="#">Download Admission Form</a>
+      <a href="#">TC</a>
+      <a href="#">Downloads</a>
+    </div></li>
+        <li><a href="#">Curriculum</a></li>
+        <li class="dropbtn dropdown "><a href="#" >Student Facilities &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+      <a href="#">Transport Facilities</a>
+    </div></li>
+        <li><a href="result.html">Results</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="enquiry.html">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="lg:hidden basis-[10%] pr-6 flex items-center pl-8">
+     <a href="#" onclick="openNav()"> <i class="fa-solid fa-bars"></i></a>
+    </div>
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  <ul class="flex flex-col">
+  <li><a href="#">Home</a></li>
+    <li>
+    <button class="dropdown-btn text-center">About us
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">About School</a>
+      <a href="#">Message</a>
+      <a href="#">Vision Statement</a>
+      <a href="#">Our Aims</a>
+      <a href="#">Infrastructure</a>
+  </div>  
+    </li>
+    <li>
+    <button class="dropdown-btn text-center">Admission
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">Admission Process</a>
+      <a href="#">Download Admission Form</a>
+      <a href="#">TC</a>
+      <a href="#">Downloads</a>
+  </div>  
+    </li>
+    <li><a href="#">Curriculum</a></li>
+    <li>
+    <button class="dropdown-btn text-center">Student Facilities
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">Admission Process</a>
+      <a href="#">Transport Facilities</a>
+  </div>  
+    </li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Contact us</a></li>
+       
+  </ul>
+  </div>
+
+</div>
+  </div>
+ </header>
+<div class="">
+    <img src="img/2.png" class="h-[300px] w-[100%] object-cover" alt="">
+</div>
+<div class="flex ">
+<div class="basis-[25%] ">
+<div class="flex flex-col items-end my-4 ">
+    <ul class="space-y-2">
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#literacy" >Literacy</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#science" >Science</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#humanities" >Humanities</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#mathematics" >Mathematics</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#artandcraft" >Art and Craft</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#music" >Music</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#physicaleducation" >Physical education</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#fieldtrips" >Field Trips</a></li>
+        <li class="active:bg-orange-500 hover:bg-orange-500 hover:text-white bg-slate-200 px-14 py-3  text-[#060642] font-semibold "><a href="#learningthroughactivities" >Learning through Activities</a></li>
+        
+    </ul>
+</div>
+</div>
+<div class="basis-[75%] ">
+<div class="flex flex-col">
+<h4 class="text-4xl font-bold text-[red] py-3 px-6">Curriculum</h4>
+<p class=" text-justify  py-2 px-6">
+A caring ethos underpins our whole curriculum <br> <br>
+
+Children are at the centre of our curriculum. We believe that everyone works best in a climate where they feel comfortable, secure and happy. These conditions are essential if children and adults are to give their best. <br><br>
+
+We aim to provide a curriculum which is relevant, motivating and is fundamental to all learning. 
+</p>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6">Curriculum Aims</h4>
+<span class=" px-6  text-xl">The aim of the curriculum at Delhi Public School Mahendragarh is designed to provide the best learning opportunities for our children to enable them to be:</span>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  Successful learners, who enjoy learning, make progress and achieve success.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  Confident individuals who are able to live safe, healthy and fulfilling lives.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  Responsible citizens who make a positive contribution to society.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6">Communication Language and Literacy(English & Hindi)</h4>
+<span class=" px-6  text-xl">Communication</span>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  Every child is enabled to communicate using appropriate systems and a variety of approaches: e.g. intensive interaction, directed and non-directed play, etc.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  Our pupils should develop a desire to communicate through fun and motivating activities.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  Individualised communication are tailored to the child's own needs e.g. signs, symbols, speech, communication aids, etc.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="literacy">Literacy</h4>
+<p class=" text-justify  py-2 px-6">
+In Nursery and Preparatory Classes, pupils are encouraged to develop early reading and writing skills through a mixture of formal teaching and self-selected activities. English skills are incorporated into all of the work that the children do with the aim of teaching them the joy and importance of language through relevant and stimulating tasks.
+<br> <br>
+
+In the Junior section, children have at least one hour of English each day during the Literacy Hour. This includes writing, reading and spelling. Most children begin to learn to read and write soon after starting school. From the start, we emphasise the development of spoken and written English. We regard the acquisition of reading and writing skills as a priority.
+</p>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="science">Science</h4>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="humanities">Humanities</h4>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="mathematics">Mathematics</h4>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="artandcraft">Art and Craft</h4>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="music">Music</h4>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="physicaleducation">Physical education</h4>
+<ul class="space-y-6 py-4 px-4">
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  We value, acknowledge and positively respond to any appropriate attempts, by our pupils, to communicate.
+</li></span>
+  <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>
+  A sensory approach is used to inspire a joy of reading and enjoyment of books.
+</li></span>
+</ul>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="fieldtrips">Field Trips</h4>
+<p class="text-justify py-2 px-6">Memories of school field trips are among the most prominent of the formative years, largely because they are a welcome break in the routine for both students and teachers. While their purpose is essentially to educate, they can also be a fun bonding experience for everyone involved.
+  <br> <br>
+
+Field trips, a popular activity for all students, are regularly organized by Delhi Public School Mahendragarh. No matter how old they are, kids love to explore new places with their friends. A journey undertaken by the students to a place away from their normal environment provides them with an opportunity for observation for education, or to provide students with experiences outside their everyday activities, such as going camping with teachers and their classmates.
+<br> <br>
+
+Our students at every level enjoy going to various field trips organized by our teachers throughout the year. Our students enjoy every part of their trip while significant learning takes place simultaneously. Such trips reinforce what a teacher has been teaching in class about a subject and help students understand the topic better.</p>
+<h4 class="text-3xl font-bold text-[red] py-4 px-6" id="learningthroughactivities">Learning through Activities</h4>
+<p class="text-justify py-2 px-6">At Delhi Public School Mahendragarh, we integrate a wide range of creative activities within our overall educational programme. We consider that artistic and cultural activities to be very important with regard to the harmonious development of the total personality. Every child at Delhi Public School Mahendragarh has vocal, dance, yoga, games and sports, art and craft as part of the regular timetable. Other activities like dramatics, creative writing, debating, elocution, quizzing and much more also form an essential part of education at Delhi Public School Mahendragarh. Excursions and field trips are also a part of our learning experience.</p>
+</div>
+</div>
+</div>
+<footer>
+  <div class="flex bg-slate-500 px-16 lg:space-x-12 flex-col lg:flex-row">
+      <div class="basis-[25%] flex  py-4  flex-col">
+          <h4 class="font-semibold text-3xl text-white my-3">Quick Links</h4>
+          <ul class="py-2 space-y-2 text-white">
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Career</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Enquiry</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Gallery</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">SVSSS Society</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">NCERT E books</a></li>
+          </ul>
+      </div>
+      <div class="basis-[25%] flex  ">
+        <ul class="mt-14 space-y-2 text-white">
+          <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Terms of Use</a></li>
+          <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Privacy Policy</a></li>
+          <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Download Admission Form</a></li>
+          <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">TC</a></li>
+          <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Annual Report</a></li>
+        </ul>
+      </div>
+      <div class="basis-[25%] flex  py-4 flex-col">
+        <h4 class="font-semibold text-3xl text-white ">Address</h4>
+      <span class="mt-6 font-semibold text-white">  Rewari Road, Near Sigri Village,</span>
+      <span class="py-2 font-semibold text-white">Mahendragarh, Haryana.</span>
+      <span class=" font-semibold text-white">Pin : 123029</span>
+      </div>
+      <div class="basis-[25%] flex py-4  flex-col">
+        <span class="mt-16 font-semibold text-white"> © 2022 SVSSS.com</span>
+      <span class="py-2 font-semibold text-white">Mahendragarh.</span>
+      <span class="py-2 font-semibold text-white">Affiliation Number-531200.</span>
+      <span class="py-2 font-semibold text-white">All rights reserved.</span>
+      </div>
+    </div>
+      <div class="flex    bg-slate-500">
+        <div class="basis-[100%] py-2 flex justify-center flex-col">
+          <hr class="py-2">
+          <span class="text-center font-semibold text-white">Website Designed and Developed by <a href="#">Vimal Pandey</a> </span>
+        </div>
+      </div>
+ 
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+ <script src="/script.js"></script>
+</body>
+</html>
