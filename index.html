@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swami Vivekanand Senior Secondary Scho ol</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body class="">
+  <nav class="hidden md:block">
+    <div class="bg-sky-900 py-2 flex">
+    <div class="basis-1/2  flex justify-center items-center space-x-5 text-white">
+      <i class="fa-solid fa-phone"></i> 
+      <a href="tel:+91987654321">+91 987654321</a>
+    </div>
+    <div class="basis-1/4  flex justify-center items-center space-x-5 text-white">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:support@svsss.com">support@svsss.com</a>
+    </div>
+    <div class="basis-1/2 flex justify-center items-center space-x-2 sm:space-x-5 text-white">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    </div>
+    </div>
+  </nav>
+ <header>
+  <div  class="flex  h-20 shadow-md">
+    <div class="basis-[90%] md:basis-[90%] lg:basis-[30%] flex justify-center items-center ml-8">
+<img src="/img/gemschool-logo.png" alt="">
+    </div>
+    <div class=" hidden basis-[75%] lg:flex items-center justify-center ">
+      <ul class="md:flex space-x-5 justify-center uppercase ">
+        <li><a href="#">Home</a></li>
+        <li class=" dropdown dropbtn"><a href="aboutus.php" >About us &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+      <a href="aboutus.php">About School</a>
+      <a href="message.php">Message</a>
+      <a href="vision.php">Vision Statement</a>
+      <a href="aim.php">Our Aims</a>
+      <a href="Infrastructure.php">Infrastructure</a>
+    </div></li>
+    <li class="dropbtn dropdown "><a href="#" >Admission &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+      <a href="admission.php">Admission Process</a>
+      <a href="#">Download Admission Form</a>
+      <a href="#">TC</a>
+      <a href="#">Downloads</a>
+    </div></li>
+        <li><a href="#">Curriculum</a></li>
+        <li class="dropbtn dropdown "><a href="#" >Student Facilities &nbsp;<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+      <a href="#">Transport Facilities</a>
+    </div></li>
+        <li><a href="result.php">Results</a></li>
+        <li><a href="career.php">Career</a></li>
+        <li><a href="enquiry.php">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="lg:hidden basis-[10%] pr-6 flex items-center pl-8">
+     <a href="#" onclick="openNav()"> <i class="fa-solid fa-bars"></i></a>
+    </div>
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+  <ul class="flex flex-col">
+  <li><a href="#">Home</a></li>
+    <li>
+    <button class="dropdown-btn text-center">About us
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">About School</a>
+      <a href="#">Message</a>
+      <a href="#">Vision Statement</a>
+      <a href="#">Our Aims</a>
+      <a href="#">Infrastructure</a>
+  </div>  
+    </li>
+    <li>
+    <button class="dropdown-btn text-center">Admission
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">Admission Process</a>
+      <a href="#">Download Admission Form</a>
+      <a href="#">TC</a>
+      <a href="#">Downloads</a>
+  </div>  
+    </li>
+    <li><a href="#">Curriculum</a></li>
+    <li>
+    <button class="dropdown-btn text-center">Student Facilities
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+  <a href="#">Admission Process</a>
+      <a href="#">Transport Facilities</a>
+  </div>  
+    </li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Contact us</a></li>
+       
+  </ul>
+  </div>
+
+</div>
+  </div>
+ </header>
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/img/1.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/img/2.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/img/3.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/img/4.png" alt="">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+  </div>
+  <div class="py-6  pl-4 pr-4 lg:px-32 flex flex-col lg:flex-row lg:space-x-11 lg:space-y-0  space-y-6">
+    <div class="w-[100%] lg:w-[33%] h-[400px] bg-[#9e852b] ">
+  <div class="flex justify-end ">
+    <img src="/img/corner img/mt-0255-home-bg1.jpg"  alt="">
+  </div>
+  <h4 class="text-white text-3xl font-semibold pl-8">About Us</h4>
+  <p class="text-justify px-5 py-12 text-white">Delhi Public School, Mahendragarh is under the auspices of Delhi Public School Society, New Delhi. DPS Society is one of the leaders in the academic world and is well known for its progressive approach and commitment in academic excellence throughout India and other countries.</p>
+  <span class="text-white px-5 font-bold text-xl cursor-pointer hover:text-[#1a0b36]">Read More  &nbsp;&nbsp; <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+    </div>
+    <div class="w-[100%] lg:w-[33%] h-[400px] bg-[#725a02] ">
+  <div class="flex justify-end">
+    <img src="/img/corner img/mt-0255-home-bg2.jpg"  alt="">
+  </div>
+  <h4 class="text-white text-3xl font-semibold pl-8">About Us</h4>
+  <p class="text-justify px-5 py-12 text-white">Delhi Public School, Mahendragarh is under the auspices of Delhi Public School Society, New Delhi. DPS Society is one of the leaders in the academic world and is well known for its progressive approach and commitment in academic excellence throughout India and other countries.</p>
+  <span class="text-white px-5 font-bold text-xl cursor-pointer hover:text-[#1a0b36]">Read More  &nbsp;&nbsp; <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+    </div>
+    <div class="w-[100%] lg:w-[33%] h-[400px] bg-sky-800 ">
+  <div class="flex justify-end">
+    <img src="/img/corner img/mt-0255-home-bg3.jpg"  alt="">
+  </div>
+  <h4 class="text-white text-3xl font-semibold pl-8">About Us</h4>
+  <p class="text-justify px-5 py-12 text-white">Delhi Public School, Mahendragarh is under the auspices of Delhi Public School Society, New Delhi. DPS Society is one of the leaders in the academic world and is well known for its progressive approach and commitment in academic excellence throughout India and other countries.</p>
+  <span class="text-white px-5 font-bold text-xl cursor-pointer hover:text-[#1a0b36]">Read More  &nbsp;&nbsp; <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+    </div>
+  </div>
+  <div class=" shadow-lg my-5 flex flex-col lg:flex-row">
+  <div class="lg:basis-[65%] basis-[100%]">
+    <h4 class="text-4xl font-semibold text-center lg:text-start  text-red-800 py-6 pl-12">Vision</h4>
+    <div class="flex md:px-12 space-x-6 flex-col md:flex-row">
+      <div class="basis-[33.3%] py-4 flex justify-center">
+        <img src="http://www.dpsmahendragarh.com/images/home-mission.JPG" class="rounded-lg " alt="">
+      </div>
+      <div class="md:basis-[33.3%] ">
+  <span class="text-gray-500 font-semibold text-3xl md:text-2xl">Our Purpose is to:</span>
+  <ul class="space-y-2 py-6 px-4">
+    <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Safeguard Children</li></span>
+    <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Provide Education</li></span>
+    <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Facilitate Independence</li></span>
+    <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Develop Communication</li></span>
+  </ul>
+      </div>
+      <div class="basis-[33.3%]">
+        <span class="text-gray-500 font-semibold text-3xl md:text-2xl">Our Values are:</span>
+        <ul class="space-y-2 py-6 px-4">
+          <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Tolerance</li></span>
+          <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Patience</li></span>
+          <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Respect</li></span>
+          <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Honesty</li></span>
+          <span class="flex space-x-3 items-center text-gray-800"><i class="fa-solid fa-arrow-right"></i><li>Innovation</li></span>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="basis-[35%] bg">
+    <h4 class="text-4xl font-semibold text-red-800 py-6 pl-12 md:text-center">Latest Events</h4>
+    <div class="flex flex-col  my-2 mx-10">
+      <div class="flex">
+        <div class="basis-[30%]   bg-slate-600 flex flex-col ">
+         <span class="bg-orange-500 text-white text-center font-semibold px-2">Apr - 22</span>
+         <span class="bg-gray-500 text-white text-center font-semibold py-2">11 - 16</span>
+        </div>
+        <div class="basis-[70%]  flex  items-center hover:bg-gray-300">
+          <span class=" font-bold md:text-lg text-sky-700 py-2 pl-6">
+            English Creative Writing</span>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col  my-2 mx-10">
+      <div class="flex">
+        <div class="basis-[30%]   bg-slate-600 flex flex-col ">
+         <span class="bg-orange-500 text-white text-center font-semibold px-2">Apr - 22</span>
+         <span class="bg-gray-500 text-white text-center font-semibold py-2">11 - 16</span>
+        </div>
+        <div class="basis-[70%]  flex  items-center hover:bg-gray-300">
+          <span class="  font-bold md:text-lg text-sky-700 py-2 pl-6">
+            English Creative Writing</span>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col  my-2 mx-10">
+      <div class="flex ">
+        <div class="basis-[30%]   bg-slate-600 flex flex-col  ">
+         <span class="bg-orange-500  text-white text-center font-semibold px-2">Apr - 22</span>
+         <span class="bg-gray-500 text-white text-center font-semibold py-2">11 - 16</span>
+        </div>
+        <div class="basis-[70%]  flex  items-center hover:bg-gray-300">
+          <span class=" font-bold md:text-lg text-sky-700 py-2 pl-6">
+            English Creative Writing</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  </div>
+  <div >
+    <h4 class="text-4xl font-semibold text-red-800 text-center py-6 pl-12">Gallery</h4>
+    <div class="flex justify-center">
+      <div class="lg:basis-[80%] basis-[100%] flex  flex-col md:flex-row">
+          <div class="basis-[60%]  px-2 md:my-2 my-1">
+            <img src="/img/1.png" class="rounded-lg object-cover h-52" alt="">
+          </div>
+          <div class="basis-[50%] px-2  md:my-2 my-1">
+  <img src="/img/2.png" class="rounded-lg object-cover h-52"  alt="">
+          </div>
+          
+      </div>
+    </div>
+    <div class="flex justify-center">
+      <div class="lg:basis-[80%] basis-[100%] flex flex-col md:flex-row">
+          <div class="basis-[33.3%]  px-2 my-2">
+            <img src="/img/1.png" class="rounded-lg object-cover h-52" alt="">
+          </div>
+          <div class="basis-[33.3%] px-2  md:my-2 my-1">
+  <img src="/img/2.png" class="rounded-lg object-cover h-52"  alt="">
+          </div>
+          <div class="basis-[33.3%] px-2  md:my-2 my-1">
+  <img src="/img/2.png" class="rounded-lg object-cover h-52"  alt="">
+          </div>
+          
+      </div>
+    </div>
+    <div class="flex justify-center my-2">
+      <span class="text-2xl font-semibold text-red-600"><a href="">View More <i class="fa-solid fa-arrow-right"></i></a></span>
+    </div>
+  </div>
+  <footer>
+    <div class="flex bg-slate-500 px-16 lg:space-x-12 flex-col lg:flex-row">
+        <div class="basis-[25%] flex  py-4  flex-col">
+            <h4 class="font-semibold text-3xl text-white my-3">Quick Links</h4>
+            <ul class="py-2 space-y-2 text-white">
+              <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Career</a></li>
+              <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Enquiry</a></li>
+              <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Gallery</a></li>
+              <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">SVSSS Society</a></li>
+              <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">NCERT E books</a></li>
+            </ul>
+        </div>
+        <div class="basis-[25%] flex  ">
+          <ul class="mt-14 space-y-2 text-white">
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Terms of Use</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Privacy Policy</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Download Admission Form</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">TC</a></li>
+            <li class="space-x-3"> <i class="fa-solid fa-arrow-right"></i><a href="">Annual Report</a></li>
+          </ul>
+        </div>
+        <div class="basis-[25%] flex  py-4 flex-col">
+          <h4 class="font-semibold text-3xl text-white ">Address</h4>
+        <span class="mt-6 font-semibold text-white">  Rewari Road, Near Sigri Village,</span>
+        <span class="py-2 font-semibold text-white">Mahendragarh, Haryana.</span>
+        <span class=" font-semibold text-white">Pin : 123029</span>
+        </div>
+        <div class="basis-[25%] flex py-4  flex-col">
+          <span class="mt-16 font-semibold text-white"> © 2022 SVSSS.com</span>
+        <span class="py-2 font-semibold text-white">Mahendragarh.</span>
+        <span class="py-2 font-semibold text-white">Affiliation Number-531200.</span>
+        <span class="py-2 font-semibold text-white">All rights reserved.</span>
+        </div>
+      </div>
+        <div class="flex    bg-slate-500">
+          <div class="basis-[100%] py-2 flex justify-center flex-col">
+            <hr class="py-2">
+            <span class="text-center font-semibold text-white">Website Designed and Developed by <a href="#">Vimal Pandey</a> </span>
+          </div>
+        </div>
+   
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   <script src="/script.js"></script>
+  </body>
+  </html>
